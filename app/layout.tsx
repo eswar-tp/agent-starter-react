@@ -47,7 +47,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const hdrs = await headers();
   const appConfig = await getAppConfig(hdrs);
   const styles = getStyles(appConfig);
-  const { pageTitle, pageDescription, companyName, logo, logoDark } = appConfig;
+  const { pageTitle, pageDescription } = appConfig;
 
   return (
     <html
@@ -71,8 +71,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <header className="fixed top-0 left-0 z-50 hidden w-full flex-row justify-between p-6 md:flex">
-          </header>
+          <header className="fixed top-0 left-0 z-50 hidden w-full flex-row justify-between p-6 md:flex"></header>
 
           {children}
           <div className="group fixed bottom-0 left-1/2 z-50 mb-2 -translate-x-1/2">
