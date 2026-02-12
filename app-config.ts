@@ -22,18 +22,18 @@ export interface AppConfig {
 }
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
-  companyName: 'GGS Telecom',
-  pageTitle: 'GGS Telecom Voice Agent',
-  pageDescription: 'An AI-powered voice agent by GGS Telecom',
+  companyName: 'Allure Avenue',
+  pageTitle: 'Allure Avenue Voice Agent',
+  pageDescription: 'An AI-powered voice agent by Allure Avenue',
 
   supportsChatInput: true,
   supportsVideoInput: true,
   supportsScreenShare: true,
   isPreConnectBufferEnabled: true,
 
-  logo: 'https://ggstelecoms.co.uk/wp-content/uploads/2025/10/1796dc3c21c3e9deb5a21b1bf82184b245b735f0-2.png',
+  logo: 'https://allureavani.in/wp-content/uploads/2025/11/Allure-Avani-2025-Logo-White.webp',
   accent: '#002cf2',
-  logoDark: 'https://ggstelecoms.co.uk/wp-content/uploads/2025/10/1796dc3c21c3e9deb5a21b1bf82184b245b735f0-2.png',
+  logoDark: 'https://allureavani.in/wp-content/uploads/2025/11/Allure-Avani-2025-Logo-White.webp',
   accentDark: '#1fd5f9',
   startButtonText: 'Start call',
 

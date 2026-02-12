@@ -34,7 +34,7 @@ export const WelcomeView = ({
         <WelcomeImage />
 
         <p className="text-foreground max-w-prose pt-1 leading-6 font-medium">
-          Welcome to the GGS Telecom AI-powered voice agent. Click the button below to start your
+          Welcome to the Allure Avenue AI-powered voice agent. Click the button below to start your
           call.
         </p>
 
